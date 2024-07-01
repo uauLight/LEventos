@@ -1,0 +1,11 @@
+name: LEventos
+version: '${project.version}'
+main: com.uaulight.leventos.Main
+authors: [ uauLight ]
+description: Plugin de Eventos para o seru servidor.
+website: https://skymc.com.br/
+commands:
+  evento:
+    aliases: [eventos,event,events,leventos]
+  bolao:
+  loteria:

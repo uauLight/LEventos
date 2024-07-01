@@ -1,0 +1,61 @@
+Eventos:
+  RandomVIP: true
+  Loteria: true
+  Bolao: true
+RandomVIP:
+  Minimo_Online: 10 #Coloque 0 para testar apenas com 1 jogador no servidor.
+  Comando: 'darvip vip1 @jogador 15'
+Loteria:
+  Numero_Maximo: 400
+  Anuncios: 6
+  Intervalo: 10
+  Premio: 50000
+Bolao:
+  Valor_Aposta: 5000
+  Anuncios: 6
+  Intervalo: 15
+Mensagens:
+  Nao_Acontecendo: '&cEste evento não está a decorrer de momento.'
+  Loteria_Erro_Args: '&cUtilize /loteria [numero].'
+  Loteria_Erro_Invalido: '&cNúmero incorreto, tente novamente!'
+  Bolao_Erro_Participando: '&cVocê já está a participar no evento bolão.'
+  Bolao_Erro_Saldo: '&cVocê precisa de 5.000$ para participar no evento bolão.'
+  Bolao_Sucesso: '&aAposta efetuada com sucesso, Boa sorte!'
+Anuncios:
+  Loteria_Aberta:
+    - ' '
+    - '&6&lEvento Loteria - &aIniciado'
+    - '&ePara participar utilize &7/loteria'
+    - '&eNumero maximo: &e@nmaximo'
+    - '&ePremio: &750.000'
+    - ' '
+  Loteria_Ganhador:
+    - ' '
+    - '&6&lEvento Loteria - &cFinalizado'
+    - '&eVencedor: &a@vencedor'
+    - '&eNumero correto: &7@ncorreto'
+    - '&ePremio: &750.000'
+    - ' '
+  Loteria_Encerrado:
+    - ' '
+    - '&6&lEvento Loteria - &cTerminado'
+    - '&eNúmero correto: &7@ncorreto'
+    - ' '
+  Bolao_Aberto:
+    - ' '
+    - '&6&lEvento Bolão - &aIniciado'
+    - '&ePara participar utilize &7/bolao'
+    - '&eValor da aposta: &75.000'
+    - '&ePremio: &7@premio'
+    - ' '
+  Bolao_Ganhador:
+    - ' '
+    - '&6&lEvento Bolão - &cFinalizado'
+    - '&eVencedor: &a@vencedor'
+    - '&ePremio: &7@premio'
+    - ' '
+  Bolao_Cancelado:
+    - ' '
+    - '&6&lEvento Bolão - &cCancelado'
+    - '&eNinguém participou no evento. :\'
+    - ' '
